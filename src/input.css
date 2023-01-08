@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    
+
+    .navbar{
+        @apply flex items-center justify-between py-10 lg:px-24 z-10 px-10 max-[540px]:px-5 max-[540px]:py-5 
+    }
+
+    .btn-1{
+        @apply hover:opacity-80 border border-solid py-3 px-16 rounded-full shadow-2xl font-openSans text-sm font-semibold text-v_dark_cyan bg-white max-[540px]:px-8 max-[540px]:text-sm max-[540px]:py-2 max-[280px]:text-xs max-[280px]:px-6
+    }
+
+    .section-1{
+        @apply grid grid-cols-2 gap-9 lg:px-24 mt-6 px-10 max-[540px]:grid-cols-1 max-[540px]:px-5
+    }
+
+    .section-1-left-side{
+        @apply flex flex-col justify-center max-[540px]:mb-12
+    }
+
+    .title{
+        @apply text-v_dark_cyan font-bold text-4xl font-poppins max-w-md leading-snug mb-4 max-[540px]:text-3xl max-[540px]:my-8 max-[280px]:text-xl
+     }
+
+     .text{
+        @apply font-openSans font-normal text-v_dark_cyan max-w-lg mb-6
+     }
+
+     .btn-2{
+        @apply bg-pinkk hover:opacity-70 max-[540px]:text-xs text-white font-openSans font-semibold text-sm py-4 px-20 rounded-full max-[375px]:px-12 max-[320px]:px-8 max-[280px]:text-xs max-[280px]:px-6
+     }
+
+     .card-collapse{
+        @apply lg:p-20 p-8 max-[540px]:p-5 max-[425px]:px-3
+     }
+
+     .card{
+        @apply flex items-center lg:p-20 border border-solid my-10 shadow-xl rounded-md p-14 max-[540px]:flex-col-reverse max-[540px]:text-center max-[540px]:p-12 max-[280px]:p-6
+     }
+
+     .card-2{
+        @apply flex flex-row-reverse items-center lg:p-20 p-10 border border-solid my-10 shadow-xl rounded-md max-[540px]:flex-col-reverse max-[540px]:text-center max-[540px]:p-12 max-[280px]:p-6
+     }
+
+     .title-2{
+        @apply text-3xl font-poppins font-semibold text-v_dark_cyan mb-4 max-[540px]:text-2xl 
+     }
+
+     .text-2{
+        @apply text-grayish_blue font-openSans lg:max-w-xl text-base
+     }
+
+     .text-3{
+        @apply text-grayish_blue font-openSans lg:max-w-3xl text-base
+     }
+
+     .footer{
+        @apply bg-v_dark_cyan text-white  lg:px-20 pt-40 pb-20  -mt-28 relative -z-10 px-6 
+     }
+
+     .link{
+        @apply border border-solid w-8 h-8 rounded-full justify-center items-center flex  cursor-pointer hover:border-pinkk
+     }
+
+     .link-2{
+        @apply flex justify-start font-openSans text-sm gap-3 items-center
+     }
+
+     .link-3{
+        @apply flex justify-start font-openSans text-sm
+     }
+
+     .linkk{
+      @apply cursor-pointer hover:underline hover:underline-offset-2
+     }
+
+     .cta{
+        @apply top-0 bg-white shadow-2xl py-14 px-28 max-[540px]:px-10  max-[540px]:py-10  rounded-md inline-block text-center relative z-10 -mb-60
+     }
+
+     .title-3{
+          @apply lg:text-2xl font-poppins font-semibold text-v_dark_cyan mb-4 text-xl max-[540px]:text-lg   
+     }
+
+     .footer-div{
+      @apply flex justify-between my-10 max-[768px]:gap-8 max-[540px]:flex-col 
+     }
+
+     .footer-title{
+      @apply text-white float-right text-sm max-[540px]:text-xs font-openSans font-normal max-[540px]:flex max-[540px]:justify-center max-[540px]:float-none
+     }
+
+     .link:hover.test{
+      @apply fill-pinkk
+     }
+
+
+
+    
+}
