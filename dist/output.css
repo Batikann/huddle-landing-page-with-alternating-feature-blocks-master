@@ -1001,10 +1001,6 @@ video {
   }
 }
 
-.link:hover.test {
-  fill: hsl(322, 100%, 66%);
-}
-
 .relative {
   position: relative;
 }
@@ -1085,10 +1081,6 @@ video {
 
 .fill-white {
   fill: #fff;
-}
-
-.fill-pinkk {
-  fill: hsl(322, 100%, 66%);
 }
 
 .pb-20 {

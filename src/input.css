@@ -94,9 +94,7 @@
       @apply text-white float-right text-sm max-[540px]:text-xs font-openSans font-normal max-[540px]:flex max-[540px]:justify-center max-[540px]:float-none
      }
 
-     .link:hover.test{
-      @apply fill-pinkk
-     }
+     
 
 
 
